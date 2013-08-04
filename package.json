@@ -1,0 +1,22 @@
+{
+    "author": "Jason McAffee",
+    "name": "requirejs-walkthrough",
+    "description": "illustrate use of requirejs",
+    "version": "0.0.1",
+    "homepage": "",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jasonmcaffee/requirejs-walkthrough.git"
+    },
+    "dependencies": {
+        "grunt": "0.3.15",
+        "requirejs": "2.1.8",
+        "handlebars": "~1.0.0-rc.3"
+    },
+    "devDependencies": {},
+    "optionalDependencies": {},
+    "engines": {
+        "node": "> 0.6.0"
+    },
+    "keywords":["requirejs setup"]
+}
