@@ -84,4 +84,11 @@ module.exports = function(grunt){
             grunt.log.error('ERROR IN REQUIREJS BUILD:\n' + e.toString());
         });
     });
+
+    process.on('uncaughtException', function(err) {
+        console.log('Caught exception: ' + err);
+    });
+    process.on('error', function(err){
+        console.log('process error: ' + JSON.stringify(err));
+    });
 };
