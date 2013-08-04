@@ -3,7 +3,7 @@
 ## Setup
 
 ```bash
-git clone
+git clone https://github.com/jasonmcaffee/requirejs-walkthrough.git
 npm install
 ```
 
